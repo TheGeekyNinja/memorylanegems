@@ -1,0 +1,79 @@
+<script>
+export default {
+  name: "Header",
+};
+</script>
+
+<template>
+  <!-- Header Section Start -->
+  <section class="header-sec">
+    <div class="sec-container">
+      <div class="header-main">
+        <div class="header-logo">
+          <img src="@/assets/logo.png" alt="" srcset="" />
+        </div>
+        <div class="header-links">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Dummy</a>
+            </li>
+            <li>
+              <a href="#">Dummy</a>
+            </li>
+            <li>
+              <a href="#">Dummy</a>
+            </li>
+            <li>
+              <a href="#">Dummy</a>
+            </li>
+            <li>
+              <a href="#">Dummy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<style>
+/* Header Section */
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.header-links ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.sec-container {
+  max-width: 88%;
+  margin: 0 auto;
+  width: 100%;
+}
+.header-links ul li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #636363;
+}
+.header-links li {
+  margin: 0 40px;
+  padding: 47px 0;
+}
+</style>
