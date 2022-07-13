@@ -15,7 +15,7 @@ export default {
         <div class="header-links">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="#" class="active">Home</a>
             </li>
             <li>
               <a href="#">Dummy</a>
@@ -75,5 +75,8 @@ export default {
 .header-links li {
   margin: 0 40px;
   padding: 47px 0;
+}
+.header-links ul li a.active {
+  color: #bf6f8c;
 }
 </style>

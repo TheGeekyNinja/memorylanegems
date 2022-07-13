@@ -22,6 +22,7 @@
       </div>
     </div>
   </section>
+
   <!-- About Us Section -->
   <section class="about-sec">
     <div class="container">
@@ -219,13 +220,150 @@
       </div>
     </div>
   </section>
+
+  <!-- Product Section -->
+  <section class="product-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="product-sec-head">
+            <h2>Lorem ipsum <span>dolor sit amet</span></h2>
+            <div class="product-sec-head-details">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at
+                nisi tincidunt, iaculis velit ac, suscipit elit. Vestibulum
+                tincidunt vel metus sit amet condimentum. Integer tincidunt
+                fermentum est, sed lacinia leo...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="product-sec-main">
+            <div class="product-sec-inner">
+              <div class="product-sec-image">
+                <img src="@/assets/Product1.png" alt="" />
+              </div>
+              <div class="product-sec-details">
+                <h6>Lorem ipsum dolor</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at
+                  nisi tincidunt, iaculis velit ac, suscipit elit...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="product-sec-main center">
+            <div class="product-sec-inner">
+              <div class="product-sec-image">
+                <img src="@/assets/Product2.png" alt="" />
+              </div>
+              <div class="product-sec-details">
+                <h6>Lorem ipsum dolor</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at
+                  nisi tincidunt, iaculis velit ac, suscipit elit...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="product-sec-main">
+            <div class="product-sec-inner">
+              <div class="product-sec-image">
+                <img src="@/assets/Product3.png" alt="" />
+              </div>
+              <div class="product-sec-details">
+                <h6>Lorem ipsum dolor</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at
+                  nisi tincidunt, iaculis velit ac, suscipit elit...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Details Section -->
+  <section class="product-details-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="product-details-sec-head">
+            <h2>Lorem ipsum <span>dolor sit amet</span></h2>
+          </div>
+        </div>
+        <div class="col-lg-8 col-12">
+          <div class="product-details-sub-head">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at
+              nisi tincidunt, iaculis velit ac, suscipit elit. Vestibulum
+              tincidunt vel metus sit amet condimentum. Integer tincidunt
+              fermentum est, sed lacinia leo tempor ut. Proin blandit suscipit
+              justo, ac laoreet mi ornare quis. In a sem lobortis lacus
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="sec-details-main">
+            <div class="row">
+              <div class="col-lg-7 col-12">
+                <div class="sec-details-img">
+                  <img src="@/assets/Products.png" class="img-fluid" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-5 col-12">
+                <div class="product-main-details-sec">
+                  <div class="product-inner-details-sec">
+                    <h6>Lorem ipsum dolor sit amet consectetur</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut at nisi tincidunt, iaculis velit ac, suscipit elit.
+                      Vestibulum tincidunt vel metus sit amet condimentum.
+                      Integer tincidunt fermentum est, sed lacinia leo tempor
+                      ut. Proin blandit suscipit justo...
+                    </p>
+                    <h6>Lorem ipsum</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut at nisi tincidunt, iaculis velit ac, suscipit elit.
+                      Vestibulum tincidunt vel metus sit amet condimentum.
+                      Integer tincidunt fermentum est...
+                    </p>
+                    <div class="overlay-details">
+                      <p>LOREM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <Footer />
 </template>
 <script>
 import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
+
 export default {
   name: "LandingPage",
   components: {
     Header,
+    Footer,
   },
 };
 </script>
@@ -446,4 +584,157 @@ export default {
   align-items: center;
 }
 /* Card Section CSS End */
+
+/* Product Section CSS Start */
+.product-sec {
+  padding: 120px 0;
+  background: #bf6f8c12;
+}
+.product-sec-head h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  padding: 0 0 20px 0;
+}
+.product-sec-head h2 span {
+  font-weight: 700;
+}
+.product-sec-head-details p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 190%;
+  text-align: center;
+  color: #636363;
+  padding: 0 100px 39px 100px;
+}
+.product-sec-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.product-sec-details h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  padding: 30px 0 15px 0;
+}
+.product-sec-details p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  color: #636363;
+}
+.product-sec-main {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 70px 0 0 0;
+}
+.product-sec-main.center {
+  margin-top: -70px;
+}
+/* Product Section CSS End */
+
+/* Product Details Section CSS Start */
+
+.product-details-sec {
+  padding: 150px 0 120px 0;
+}
+.product-details-sec-head h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.product-details-sec-head h2 span {
+  font-weight: 700;
+}
+
+.product-details-sub-head p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #636363;
+  padding: 0 0 0 40px;
+}
+
+.sec-details-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.sec-details-main {
+  padding: 40px 0 0 0;
+}
+
+.product-inner-details-sec {
+  padding: 50px 40px 50px 50px;
+  background: #ffffff;
+  box-shadow: 0px 4px 54px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  margin: 0 0 50px 0;
+  position: relative;
+}
+
+.product-main-details-sec {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  margin: 0 0 0 -157px;
+}
+
+.product-inner-details-sec h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  color: #000000;
+  padding: 0 0 15px 0;
+}
+.product-inner-details-sec p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #636363;
+}
+.product-inner-details-sec p:nth-child(2) {
+  padding: 0 0 40px 0;
+}
+.overlay-details {
+  position: absolute;
+  top: -78px;
+  z-index: -1;
+  right: -5px;
+}
+.overlay-details p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 115px;
+  line-height: 115px;
+  color: #000000;
+  opacity: 0.1;
+}
+/* Product Details Section CSS End */
 </style>
