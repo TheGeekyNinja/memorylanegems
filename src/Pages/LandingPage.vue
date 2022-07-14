@@ -352,6 +352,288 @@
       </div>
     </div>
   </section>
+
+  <!-- Ring Section -->
+  <section class="ring-sec">
+    <div class="container">
+      <div class="row ring-sec-main">
+        <div class="col-lg-7 col-12">
+          <div class="ring-sec-main-details">
+            <div class="ring-sec-inner-details">
+              <h3>Lorem ipsum <span>dolor sit amet</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at
+                nisi tincidunt, iaculis velit ac, suscipit elit. Vestibulum
+                tincidunt vel metus sit amet condimentum. Integer tincidunt
+                fermentum est, sed lacinia leo tempor ut. Proin blandit suscipit
+                justo, ac laoreet mi ornare quis. In a sem lobortis lacus
+                consectetur varius id lacinia lorem.
+              </p>
+              <p>
+                Pellentesque iaculis nulla sollicitudin purus lobortis, varius
+                tempor diam iaculis. Cras nec mauris commodo, suscipit arcu sed,
+                dapibus ligula. Vestibulum fringilla lorem mi, nec aliquam dui
+                blandit et. Sed ornare porta suscipit. Aliquam maximus, ex id
+                sodales pulvinar, quam augue mattis felis, quis eleifend eros
+                elit id ipsum. Aliquam sagittis posuere sodales. Donec interdum,
+                lacus ac posuere feugiat, arcu massa venenatis sapien, vel
+                lacinia sem...
+              </p>
+              <div class="view-more-button">
+                <button type="button">
+                  View More
+                  <svg
+                    width="21"
+                    height="17"
+                    viewBox="0 0 21 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 8.5H20"
+                      stroke="#fff"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M13 1.5L20 8.5L13 15.5"
+                      stroke="#fff"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-12">
+          <div class="ring-sec-img">
+            <img src="@/assets/Rings.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stone Section -->
+  <section class="stone-sec">
+    <div class="sec-container">
+      <div class="row stone-sec-main">
+        <div class="col-lg-5 col-12">
+          <div class="stone-sec-img-main">
+            <img src="@/assets/stone.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <div class="col-lg-7 col-12">
+          <div class="stone-sec-details-main">
+            <div class="stone-sec-details-inner">
+              <h3>Lorem ipsum <span>dolor sit amet</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at
+                nisi tincidunt, iaculis velit ac, suscipit elit. Vestibulum
+                tincidunt vel metus sit amet condimentum. Integer tincidunt
+                fermentum est, sed lacinia leo tempor ut. Proin blandit suscipit
+                justo, ac laoreet mi ornare quis. In a sem lobortis lacus
+                consectetur varius id lacinia lorem.
+              </p>
+              <p>
+                Pellentesque iaculis nulla sollicitudin purus lobortis, varius
+                tempor diam iaculis. Cras nec mauris commodo, suscipit arcu sed,
+                dapibus ligula. Vestibulum fringilla lorem mi, nec aliquam dui
+                blandit et. Sed ornare porta suscipit. Aliquam maximus, ex id
+                sodales pulvinar, quam augue mattis felis, quis eleifend eros
+                elit id ipsum. Aliquam sagittis posuere sodales. Donec interdum,
+                lacus ac posuere feugiat, arcu massa venenatis sapien, vel
+                lacinia sem...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Blog Section -->
+  <section class="product-blog-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="product-blog-head">
+            <h2>Lorem ipsum <span>dolor sit amet</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="blog-card-main">
+            <div class="blog-card-inner">
+              <div class="blog-card-img">
+                <img src="@/assets/Blog-1.png" class="img-fluid" alt="" />
+              </div>
+              <div class="blog-details">
+                <div class="blog-date">
+                  <p>April 6, 2022</p>
+                </div>
+                <div class="blog-title">
+                  <p>Lorem ipsum dolor sit amet consectetur...</p>
+                </div>
+                <div class="read-more-button">
+                  <button type="button">
+                    Read More
+                    <svg
+                      width="21"
+                      height="17"
+                      viewBox="0 0 21 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 8.5H20"
+                        stroke="#BF6F8C"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M13 1.5L20 8.5L13 15.5"
+                        stroke="#BF6F8C"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="blog-card-main">
+            <div class="blog-card-inner">
+              <div class="blog-card-img">
+                <img src="@/assets/Blog-2.png" class="img-fluid" alt="" />
+              </div>
+              <div class="blog-details">
+                <div class="blog-date">
+                  <p>February 15, 2022</p>
+                </div>
+                <div class="blog-title">
+                  <p>Lorem ipsum dolor sit amet consectetur...</p>
+                </div>
+                <div class="read-more-button">
+                  <button type="button">
+                    Read More
+                    <svg
+                      width="21"
+                      height="17"
+                      viewBox="0 0 21 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 8.5H20"
+                        stroke="#BF6F8C"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M13 1.5L20 8.5L13 15.5"
+                        stroke="#BF6F8C"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="blog-card-main">
+            <div class="blog-card-inner">
+              <div class="blog-card-img">
+                <img src="@/assets/Blog-3.png" class="img-fluid" alt="" />
+              </div>
+              <div class="blog-details">
+                <div class="blog-date">
+                  <p>June 8, 2022</p>
+                </div>
+                <div class="blog-title">
+                  <p>Lorem ipsum dolor sit amet consectetur...</p>
+                </div>
+                <div class="read-more-button">
+                  <button type="button">
+                    Read More
+                    <svg
+                      width="21"
+                      height="17"
+                      viewBox="0 0 21 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 8.5H20"
+                        stroke="#BF6F8C"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M13 1.5L20 8.5L13 15.5"
+                        stroke="#BF6F8C"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="view-all-blog-button">
+            <button type="button">
+              View All News
+              <svg
+                width="21"
+                height="17"
+                viewBox="0 0 21 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 8.5H20"
+                  stroke="#fff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M13 1.5L20 8.5L13 15.5"
+                  stroke="#fff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
   <Footer />
 </template>
@@ -737,4 +1019,245 @@ export default {
   opacity: 0.1;
 }
 /* Product Details Section CSS End */
+
+/* Ring Section CSS Start */
+.ring-sec {
+  position: relative;
+  padding: 100px 0;
+  overflow: hidden;
+}
+.ring-sec:after {
+  position: absolute;
+  content: "";
+  width: 39%;
+  height: 100%;
+  background: #bf6f8c;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  border-radius: 100px 0px 0px 0px;
+}
+.ring-sec:before {
+  position: absolute;
+  content: "";
+  width: 35%;
+  height: 100%;
+  background: url("@/assets/Ring-bg.png") no-repeat;
+  background-size: cover;
+  left: 0;
+  top: -10%;
+  z-index: -1;
+}
+.ring-sec-main {
+  display: flex;
+  align-items: center;
+}
+.ring-sec-img img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.ring-sec-inner-details h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000000;
+  padding: 0 0 30px 0;
+}
+.ring-sec-inner-details h3 span {
+  font-weight: 700;
+}
+.ring-sec-inner-details p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 190%;
+  color: #636363;
+  padding: 0 30px 0 0;
+}
+.ring-sec-inner-details p:nth-child(2) {
+  padding: 0 30px 40px 0;
+}
+.ring-sec-img {
+  margin: 0 -100px 0 0;
+}
+.view-more-button button {
+  padding: 20px 41px 20px 26px;
+  font-family: "Cerebri Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #bf6f8c;
+  border-radius: 5px;
+}
+.view-more-button {
+  margin: 40px 0 0 0;
+}
+.view-more-button button svg {
+  margin: 0 0 0 12px;
+}
+/* Ring Section CSS End */
+
+/* Stone Section CSS Start */
+.stone-sec {
+  position: relative;
+  padding: 150px 0;
+}
+.stone-sec:after {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background: #bf6f8c;
+  opacity: 0.07;
+  z-index: -1;
+}
+.stone-sec-img-main img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+  border: 5px solid #bf6f8c;
+  filter: drop-shadow(0px 24px 74px rgba(0, 0, 0, 0.15));
+}
+.stone-sec-details-main {
+  padding: 0 0 0 50px;
+}
+.stone-sec-main {
+  display: flex;
+  align-items: center;
+}
+.stone-sec-details-inner h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000000;
+  padding: 0 0 30px 0;
+}
+.stone-sec-details-inner h3 span {
+  font-weight: 700;
+}
+.stone-sec-details-inner p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 190%;
+  color: #636363;
+}
+.stone-sec-details-inner p:nth-child(2) {
+  padding: 0 0 30px 0;
+}
+/* Stone Section CSS End */
+
+/* Blog Section CSS Start */
+.product-blog-sec {
+  padding: 150px 0;
+  position: relative;
+}
+.product-blog-sec:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+  right: 0;
+  background: url("@/assets/Blog-bg.png"), no-repeat;
+  background-size: cover;
+  width: 530px;
+  height: 536px;
+}
+.product-blog-head h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+  padding: 0 0 40px 0;
+}
+.product-blog-head h2 span {
+  font-weight: 700;
+}
+.blog-card-inner {
+  background: #ffffff;
+  box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+.blog-details {
+  padding: 30px 30px 0 30px;
+}
+.blog-card-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.blog-details .blog-date p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.005em;
+  color: #636363;
+}
+.blog-details .blog-title p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  padding: 20px 0;
+  border-bottom: 1px solid #dcdcdc;
+}
+.read-more-button button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #bf6f8c;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 33px 0;
+}
+.view-all-blog-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view-all-blog-button button {
+  font-family: "Cerebri Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 26px 40px 26px 20px;
+  background: #bf6f8c;
+  border-radius: 5px;
+  margin: 40px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+.view-all-blog-button button svg {
+  margin: 0 0 0 20px;
+}
+/* Blog Section CSS End */
 </style>
