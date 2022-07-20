@@ -15,7 +15,7 @@
           </div>
           <div class="banner-sec-right">
             <div class="banner-sec-img">
-              <img src="@/assets/banner-img.png" alt="" />
+              <img src="@/assets/banner-img.png" class="img-fluid" alt="" />
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@
       <div class="about-sec-main">
         <div class="about-sec-inner">
           <div class="about-sec-img">
-            <img src="@/assets/about-us.png" alt="" />
+            <img src="@/assets/about-us.png" class="img-fluid" alt="" />
             <div class="about-us-button">
               <button type="button">SINCE 2011</button>
             </div>
@@ -94,7 +94,7 @@
           <div class="card-main">
             <div class="card-inner">
               <div class="card-img">
-                <img src="@/assets/icon.png" alt="" />
+                <img src="@/assets/icon.png" class="img-fluid" alt="" />
               </div>
               <div class="card-title">
                 <h6>Lorem ipsum</h6>
@@ -135,7 +135,7 @@
             </div>
             <div class="card-inner">
               <div class="card-img">
-                <img src="@/assets/icon.png" alt="" />
+                <img src="@/assets/icon.png" class="img-fluid" alt="" />
               </div>
               <div class="card-title">
                 <h6>Lorem ipsum</h6>
@@ -176,7 +176,7 @@
             </div>
             <div class="card-inner">
               <div class="card-img">
-                <img src="@/assets/icon.png" alt="" />
+                <img src="@/assets/icon.png" class="img-fluid" alt="" />
               </div>
               <div class="card-title">
                 <h6>Lorem ipsum</h6>
@@ -244,7 +244,7 @@
           <div class="product-sec-main">
             <div class="product-sec-inner">
               <div class="product-sec-image">
-                <img src="@/assets/Product1.png" alt="" />
+                <img src="@/assets/Product1.png" class="img-fluid" alt="" />
               </div>
               <div class="product-sec-details">
                 <h6>Lorem ipsum dolor</h6>
@@ -260,7 +260,7 @@
           <div class="product-sec-main center">
             <div class="product-sec-inner">
               <div class="product-sec-image">
-                <img src="@/assets/Product2.png" alt="" />
+                <img src="@/assets/Product2.png" class="img-fluid" alt="" />
               </div>
               <div class="product-sec-details">
                 <h6>Lorem ipsum dolor</h6>
@@ -276,7 +276,7 @@
           <div class="product-sec-main">
             <div class="product-sec-inner">
               <div class="product-sec-image">
-                <img src="@/assets/Product3.png" alt="" />
+                <img src="@/assets/Product3.png" class="img-fluid" alt="" />
               </div>
               <div class="product-sec-details">
                 <h6>Lorem ipsum dolor</h6>
@@ -317,12 +317,12 @@
         <div class="col-12">
           <div class="sec-details-main">
             <div class="row">
-              <div class="col-lg-7 col-12">
+              <div class="col-xl-7 col-12">
                 <div class="sec-details-img">
                   <img src="@/assets/Products.png" class="img-fluid" alt="" />
                 </div>
               </div>
-              <div class="col-lg-5 col-12">
+              <div class="col-xl-5 col-12">
                 <div class="product-main-details-sec">
                   <div class="product-inner-details-sec">
                     <h6>Lorem ipsum dolor sit amet consectetur</h6>
@@ -427,7 +427,7 @@
             <img src="@/assets/Stone.png" class="img-fluid" alt="" />
           </div>
         </div>
-        <div class="col-lg-7 col-12">
+        <div class="col-lg-7 stone-details col-12">
           <div class="stone-sec-details-main">
             <div class="stone-sec-details-inner">
               <h3>Lorem ipsum <span>dolor sit amet</span></h3>
@@ -640,7 +640,7 @@
 <script>
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-
+import("@/Pages/LandingPageResponsive.css");
 export default {
   name: "LandingPage",
   components: {
@@ -690,6 +690,7 @@ export default {
   color: #636363;
   max-width: 749px;
   width: 100%;
+  padding: 0 20px 0 0;
 }
 .banner-sec-inner {
   display: flex;
@@ -764,6 +765,14 @@ export default {
 }
 .about-sec .about-sec-img {
   position: relative;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.about-sec .about-sec-img img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 10px;
 }
 .about-sec .about-us-button {
   position: absolute;

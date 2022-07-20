@@ -1,6 +1,11 @@
 <script>
 export default {
   name: "Header",
+  data() {
+    return {
+      mobileActive: false,
+    };
+  },
 };
 </script>
 
@@ -12,7 +17,7 @@ export default {
         <div class="header-logo">
           <img src="@/assets/logo.png" alt="" srcset="" />
         </div>
-        <div class="header-links">
+        <div class="header-links" v-bind:class="{ mobileActive: false }">
           <ul>
             <li>
               <a href="#" class="active">Home</a>
@@ -34,6 +39,11 @@ export default {
             </li>
           </ul>
         </div>
+        <div class="mobile-header-link">
+          <button type="button" v-on:click="mobileActive == true">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
       </div>
     </div>
   </section>
@@ -41,6 +51,9 @@ export default {
 
 <style>
 /* Header Section */
+section.header-sec {
+  position: relative;
+}
 .header-main {
   display: flex;
   justify-content: space-between;
@@ -56,6 +69,9 @@ export default {
   display: flex;
   padding: 0;
   margin: 0;
+}
+.mobile-header-link {
+  display: none;
 }
 .sec-container {
   max-width: 88%;
