@@ -94,7 +94,7 @@
           <div class="card-main">
             <div class="card-inner">
               <div class="card-img">
-                <img src="@/assets/icon.png" alt="" />
+                <!-- <img src="@/assets/icon.png" alt="" /> -->
               </div>
               <div class="card-title">
                 <h6>Lorem ipsum</h6>
@@ -135,7 +135,7 @@
             </div>
             <div class="card-inner">
               <div class="card-img">
-                <img src="@/assets/icon.png" alt="" />
+                <!-- <img src="@/assets/icon.png" alt="" /> -->
               </div>
               <div class="card-title">
                 <h6>Lorem ipsum</h6>
@@ -176,7 +176,7 @@
             </div>
             <div class="card-inner">
               <div class="card-img">
-                <img src="@/assets/icon.png" alt="" />
+                <!-- <img src="@/assets/icon.png" alt="" /> -->
               </div>
               <div class="card-title">
                 <h6>Lorem ipsum</h6>
