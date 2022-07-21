@@ -285,6 +285,7 @@
     width: 100%;
     z-index: 999;
     background: #fff;
+    display: block;
   }
   .header-links.mobileActive ul {
     flex-direction: column;

@@ -17,7 +17,7 @@ export default {
         <div class="header-logo">
           <img src="@/assets/logo.png" alt="" srcset="" />
         </div>
-        <div class="header-links" v-bind:class="{ mobileActive: false }">
+        <div class="header-links" v-bind:class="{ mobileActive: mobileActive }">
           <ul>
             <li>
               <a href="#" class="active">Home</a>
@@ -40,7 +40,7 @@ export default {
           </ul>
         </div>
         <div class="mobile-header-link">
-          <button type="button" v-on:click="mobileActive == true">
+          <button type="button" v-on:click="mobileActive = !mobileActive">
             <i class="fa fa-bars" aria-hidden="true"></i>
           </button>
         </div>
