@@ -23,19 +23,19 @@ export default {
               <a href="#" class="active">Home</a>
             </li>
             <li>
-              <a href="#">Dummy</a>
+              <a href="#">Lipsum</a>
             </li>
             <li>
-              <a href="#">Dummy</a>
+              <a href="#">Lipsum</a>
             </li>
             <li>
-              <a href="#">Dummy</a>
+              <a href="#">Lipsum</a>
             </li>
             <li>
-              <a href="#">Dummy</a>
+              <a href="#">Lipsum</a>
             </li>
             <li>
-              <a href="#">Dummy</a>
+              <a href="#">Lipsum</a>
             </li>
           </ul>
         </div>

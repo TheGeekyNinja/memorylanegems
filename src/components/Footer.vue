@@ -13,11 +13,11 @@
           <div class="footer-links">
             <ul>
               <li><a href="#" class="active">Home</a></li>
-              <li><a href="#">Dummy</a></li>
-              <li><a href="#">Dummy</a></li>
-              <li><a href="#">Dummy</a></li>
-              <li><a href="#">Dummy</a></li>
-              <li><a href="#">Dummy</a></li>
+              <li><a href="#">Lipsum</a></li>
+              <li><a href="#">Lipsum</a></li>
+              <li><a href="#">Lipsum</a></li>
+              <li><a href="#">Lipsum</a></li>
+              <li><a href="#">Lipsum</a></li>
             </ul>
           </div>
         </div>
