@@ -24,7 +24,7 @@
   </section>
 
   <!-- About Us Section -->
-  <section class="about-sec">
+  <section class="about-sec" id="about-sec">
     <div class="container">
       <div class="about-sec-main">
         <div class="about-sec-inner">
@@ -78,6 +78,111 @@
           <p class="highlighter">
             Please come in and see what so many are talking about.
           </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section class="contact-sec" id="contact-sec">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-title">
+          <h2>Contact <span>Us</span></h2>
+        </div>
+        <div class="contact-row">
+          <div class="contact-column">
+            <div class="contact-form-area">
+              <h3>Message Us!</h3>
+              <form class="contact-form">
+                <div class="form-field">
+                  <input
+                    type="text"
+                    name="FirstName"
+                    placeholder="First Name *"
+                  />
+                </div>
+                <div class="form-field">
+                  <input type="email" name="Email" placeholder="Email *" />
+                </div>
+                <div class="form-field">
+                  <input type="text" name="Phone" placeholder="Phone *" />
+                </div>
+                <div class="form-field">
+                  <textarea name="Message" placeholder="Message *"></textarea>
+                </div>
+                <div class="form-field">
+                  <button class="send-btn">
+                    Send
+                    <svg
+                      width="21"
+                      height="17"
+                      viewBox="0 0 21 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 8.83252H20"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M13 1.83252L20 8.83252L13 15.8325"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="contact-column">
+            <div class="contact-details-area">
+              <div class="contact-details-item">
+                <div class="contact-deta-icon">
+                  <img src="@/assets/contact-ic-1.svg" />
+                </div>
+                <div class="contact-deta-con">
+                  <p>
+                    200 W Hanley Ave, Coeur d'Alene, ID 83815, United States
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-details-item">
+                <div class="contact-deta-icon">
+                  <img src="@/assets/contact-ic-2.svg" />
+                </div>
+                <div class="contact-deta-con">
+                  <p>Message us on WhatsApp</p>
+                </div>
+              </div>
+
+              <div class="contact-details-item">
+                <div class="contact-deta-icon">
+                  <img src="@/assets/contact-ic-3.svg" />
+                </div>
+                <div class="contact-deta-con">
+                  <p>+12087775999</p>
+                </div>
+              </div>
+
+              <div class="contact-details-item">
+                <div class="contact-deta-icon">
+                  <img src="@/assets/contact-ic-4.svg" />
+                </div>
+                <div class="contact-deta-con">
+                  <p>Monday to Saturday 10am–6pm</p>
+                  <p>Sunday 11am–5pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -362,23 +467,17 @@
             <div class="ring-sec-inner-details">
               <h3>Lorem ipsum <span>dolor sit amet</span></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at
-                nisi tincidunt, iaculis velit ac, suscipit elit. Vestibulum
-                tincidunt vel metus sit amet condimentum. Integer tincidunt
-                fermentum est, sed lacinia leo tempor ut. Proin blandit suscipit
-                justo, ac laoreet mi ornare quis. In a sem lobortis lacus
-                consectetur varius id lacinia lorem.
+                Poison rings, Vintage jewelry, Fascinates, Scarves and unique
+                hats.
               </p>
               <p>
-                Pellentesque iaculis nulla sollicitudin purus lobortis, varius
-                tempor diam iaculis. Cras nec mauris commodo, suscipit arcu sed,
-                dapibus ligula. Vestibulum fringilla lorem mi, nec aliquam dui
-                blandit et. Sed ornare porta suscipit. Aliquam maximus, ex id
-                sodales pulvinar, quam augue mattis felis, quis eleifend eros
-                elit id ipsum. Aliquam sagittis posuere sodales. Donec interdum,
-                lacus ac posuere feugiat, arcu massa venenatis sapien, vel
-                lacinia sem...
+                Silver Lake Mall has become a place to meet and explore new
+                businesses like Memory Lane.
               </p>
+              <p>One of a kind vintage jewelry.</p>
+              <p>Lynn Idaho star garnets directly from the mine.</p>
+              <p>Custom cut and set star garnets.</p>
+              <p>Extraordinary prices on diamond and gemstone jewelry.</p>
               <div class="view-more-button">
                 <button type="button">
                   View More
@@ -1085,11 +1184,11 @@ export default {
   font-size: 18px;
   line-height: 190%;
   color: #636363;
-  padding: 0 30px 0 0;
+  padding: 0 30px 15px 0;
 }
-.ring-sec-inner-details p:nth-child(2) {
+/* .ring-sec-inner-details p:nth-child(2) {
   padding: 0 30px 40px 0;
-}
+} */
 .ring-sec-img {
   margin: 0 -100px 0 0;
 }
@@ -1269,4 +1368,143 @@ export default {
   margin: 0 0 0 20px;
 }
 /* Blog Section CSS End */
+
+/* Contact Section CSS Start */
+section.contact-sec {
+  padding: 150px 0px 50px;
+  position: relative;
+}
+.contact-title {
+  margin-bottom: 30px;
+}
+.contact-title h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000000;
+  text-align: center;
+}
+.contact-title h2 span {
+  font-weight: 700;
+}
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-column {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+@media screen and (max-width: 991px) {
+  .contact-column {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.contact-form-area {
+  padding-right: 33px;
+}
+.contact-form-area h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+  margin-bottom: 21px;
+}
+.contact-form-area form.contact-form .form-field {
+  margin-bottom: 15px;
+}
+.contact-form-area form.contact-form .form-field input,
+.contact-form-area form.contact-form .form-field textarea {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #868686;
+  background: #f9f9f9;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 19px 20px;
+  width: 100%;
+}
+.contact-form-area form.contact-form .form-field input:focus,
+.contact-form-area form.contact-form .form-field textarea:focus {
+  outline: none;
+}
+.contact-form-area form.contact-form .form-field textarea {
+  height: 116px;
+}
+.contact-form-area form.contact-form .form-field button.send-btn {
+  font-family: "Cerebri Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #bf6f8c;
+  border-radius: 5px;
+  padding: 26px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form-area form.contact-form .form-field button.send-btn svg {
+  margin-left: 20px;
+  width: 19px;
+  height: 14px;
+}
+.contact-details-area {
+  padding-left: 33px;
+}
+.contact-details-item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  margin: 0px 0px 20px;
+  transition: all 0.3s linear;
+}
+.contact-details-item:hover {
+  background: rgba(191, 111, 140, 0.1);
+  border-color: #bf6f8c;
+}
+.contact-deta-icon {
+  min-width: 60px;
+  width: 60px;
+  height: 60px;
+  background: #bf6f8c;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+.contact-deta-icon img {
+  width: max-content;
+  height: max-content;
+  object-fit: contain;
+}
+.contact-deta-con p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #868686;
+  transition: all 0.3s linear;
+}
+.contact-details-item:hover .contact-deta-con p {
+  color: #1a1a1a;
+}
+/* Contact Section CSS End */
 </style>

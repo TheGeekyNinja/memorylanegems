@@ -20,22 +20,16 @@ export default {
         <div class="header-links" v-bind:class="{ mobileActive: mobileActive }">
           <ul>
             <li>
-              <a href="#" class="active">Home</a>
+              <a href="/" class="active">Home</a>
             </li>
             <li>
-              <a href="#">Lipsum</a>
+              <a href="#about-sec">About Us</a>
             </li>
             <li>
-              <a href="#">Lipsum</a>
+              <a href="/gallery">Gallery</a>
             </li>
             <li>
-              <a href="#">Lipsum</a>
-            </li>
-            <li>
-              <a href="#">Lipsum</a>
-            </li>
-            <li>
-              <a href="#">Lipsum</a>
+              <a href="#contact-sec">Contact</a>
             </li>
           </ul>
         </div>
