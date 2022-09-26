@@ -222,7 +222,7 @@ export default {
 .gallery-content-sec-inner {
   margin: 0px auto;
   padding: 0px;
-  max-width: 60%;
+  max-width: 1278px;
 }
 .gallery-item-row {
   margin: 0px;
