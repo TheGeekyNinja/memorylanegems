@@ -26,9 +26,6 @@ export default {
               <a href="#about-sec">About Us</a>
             </li>
             <li>
-              <a href="/gallery">Gallery</a>
-            </li>
-            <li>
               <a href="#contact-sec">Contact</a>
             </li>
           </ul>

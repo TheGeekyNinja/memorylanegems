@@ -12,12 +12,9 @@
         <div class="col-12">
           <div class="footer-links">
             <ul>
-              <li><a href="#" class="active">Home</a></li>
-              <li><a href="#">Lipsum</a></li>
-              <li><a href="#">Lipsum</a></li>
-              <li><a href="#">Lipsum</a></li>
-              <li><a href="#">Lipsum</a></li>
-              <li><a href="#">Lipsum</a></li>
+              <li><a href="/" class="active">Home</a></li>
+              <li><a href="#about-sec">About Us</a></li>
+              <li><a href="#contact-sec">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -26,8 +23,9 @@
         <div class="col-12">
           <div class="footer-copyright">
             <p>
-              Copyright © 2022 <span><a href="#">Company Name.</a></span> All
-              Rights Reserved.
+              Copyright © 2022
+              <span><a href="#">Memory Lane Gems.</a></span> All Rights
+              Reserved.
             </p>
           </div>
         </div>
@@ -59,7 +57,7 @@ export default {
 .footer-links ul {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .footer-links li a {
   font-family: "Poppins";
@@ -69,6 +67,7 @@ export default {
   line-height: 16px;
   text-transform: uppercase;
   color: #ffffff;
+  padding: 0 20px;
 }
 .footer-links li a.active {
   color: #bf6f8c;
