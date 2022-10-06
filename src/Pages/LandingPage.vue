@@ -6,11 +6,10 @@
       <div class="banner-sec-main">
         <div class="banner-sec-inner">
           <div class="banner-sec-left">
-            <h1>Lorem ipsum <br /><span> dolor sit amet</span></h1>
+            <h1>Memory Lane<br /></h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at
-              nisi tincidunt, iaculis velit ac, suscipit elit. Vestibulum
-              tincidunt vel metus sit amet condimentum...
+		Brief company introduction. One or two
+		sentences describing who we are and what we do.
             </p>
           </div>
           <div class="banner-sec-right">
