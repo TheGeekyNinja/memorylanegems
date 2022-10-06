@@ -98,7 +98,7 @@
                 </div>
                 <div class="contact-deta-con">
                   <p>
-                    200 W Hanley Ave, Coeur d'Alene, ID 83815, United States
+                    200 W Hanley Ave, Coeur d'Alene, ID 83815<br /><span style="font-size:14px">(Near Joann Fabrics in the Silver Lake Mall)</span>
                   </p>
                 </div>
               </div>
@@ -108,7 +108,7 @@
                   <img src="@/assets/contact-ic-3.svg" />
                 </div>
                 <div class="contact-deta-con">
-                  <p>+12087775999</p>
+                  <p>(208) 777-5999</p>
                 </div>
               </div>
 
