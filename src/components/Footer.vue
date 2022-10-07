@@ -4,7 +4,11 @@
       <div class="row">
         <div class="col-12">
           <div class="footer-logo">
-            <img src="@/assets/Footer-logo.png" class="img-fluid" alt="" />
+            <img
+              src="@/assets/Memory-Lane-Gems-logo.svg"
+              class="img-fluid"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -47,6 +51,10 @@ export default {
 .footer-logo {
   display: flex;
   justify-content: center;
+}
+.footer-logo img.img-fluid {
+  max-width: 340px;
+  filter: brightness(0) invert(1);
 }
 .footer-links {
   border-top: 1px solid #ffffff33;

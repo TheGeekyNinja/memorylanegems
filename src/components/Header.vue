@@ -15,7 +15,7 @@ export default {
     <div class="sec-container">
       <div class="header-main">
         <div class="header-logo">
-          <img src="@/assets/logo.png" alt="" srcset="" />
+          <img src="@/assets/Memory-Lane-Gems-logo.svg" alt="" srcset="" />
         </div>
         <div class="header-links" v-bind:class="{ mobileActive: mobileActive }">
           <ul>
