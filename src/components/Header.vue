@@ -50,6 +50,9 @@ section.header-sec {
   justify-content: space-between;
   align-items: center;
 }
+.header-logo {
+  width: 50%;
+}
 .header-logo img {
   height: 100%;
   width: 100%;
